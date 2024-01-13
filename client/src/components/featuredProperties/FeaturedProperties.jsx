@@ -2,8 +2,8 @@ import useFetch from "../../hooks/useFetch";
 import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
-  const { data, loading, error } = useFetch("/hotels?featured=true&limit=4");
-  const photos = ['./m1hotel.jpg','./m2hotel.jpg']
+  const { data, loading } = useFetch("/hotels?featured=true&limit=4");
+  // const photos = ['./m1hotel.jpg','./m2hotel.jpg']
   return (
     <div className="fp">
       {loading ? (
