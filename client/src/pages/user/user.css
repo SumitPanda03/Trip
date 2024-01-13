@@ -1,0 +1,42 @@
+/* User.css */
+
+/* Add a container to center the user details */
+.main{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Full viewport height */
+  }
+  
+  .user-container {
+    background-color: #003580; /* Updated blue background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 40%; /* Adjust the width as needed */
+  }
+  
+  .user-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .user-details {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .not-logged-in {
+    color: #003580; /* Updated blue text color for "not logged in" message */
+    font-size: 18px;
+  }
+  
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
